@@ -19,6 +19,24 @@ namespace MecanicaWeb.Models
         public string sexo { get; set; }
         public string estadoCivil { get; set; }
         public Boolean ativo { get; set; }
+        public ICollection<Atendimento> Atendimentos { get; set; } = new List<Atendimento>();
 
+        public Cliente()
+        {
+        }
+
+        public Cliente(int id, string nome, double cpf, double fone, string email, string endereco, DateTime dataDeNascimento, string sexo, string estadoCivil, bool ativo)
+        {
+            this.id = id;
+            this.nome = nome;
+            this.cpf = cpf;
+            this.fone = fone;
+            this.email = email;
+            this.endereco = endereco;
+            this.dataDeNascimento = dataDeNascimento;
+            this.sexo = sexo;
+            this.estadoCivil = estadoCivil;
+            this.ativo = ativo;
+        }
     }
 }
