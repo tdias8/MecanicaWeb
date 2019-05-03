@@ -1,0 +1,36 @@
+﻿@model MecanicaWeb.Models.Profissional
+
+@{
+    ViewData["Title"] = "ViewIndex";
+}
+
+<h2>ViewIndex</h2>
+
+<div>
+    <h4>Profissional</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

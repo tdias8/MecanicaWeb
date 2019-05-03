@@ -7,6 +7,7 @@ namespace MecanicaWeb.Models
 {
     public class Agenda
     {
+        public int id { get; set; }
         public DateTime data { get; set; }
         public DateTime hora { get; set; }
         public ICollection<Profissional> Profissionais { get; set; } = new List<Profissional>();

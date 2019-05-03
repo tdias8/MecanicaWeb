@@ -35,3 +35,5 @@ C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razo
 C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Agendas\Index.g.cshtml.cs
+C:\Users\tdias\source\repos\MecanicaWeb\MecanicaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Atendimentos\Index.g.cshtml.cs

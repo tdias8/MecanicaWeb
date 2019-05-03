@@ -239,7 +239,7 @@ using MecanicaWeb;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1729, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d83e6df90d8d408db1a66b1235cd6bb5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94fb6f18210646d680cece8e4b26bd4a", async() => {
                 BeginContext(1775, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -274,7 +274,7 @@ using MecanicaWeb;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1791, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c69ba0824dd4eb3ac7104cdb66462e6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "411e7b4057354042ab26ab6172b5d72c", async() => {
                 BeginContext(1813, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();
